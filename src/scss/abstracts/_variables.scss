@@ -1,0 +1,44 @@
+// ============================================================
+// 1. VARIABLES
+// Reusable values. Instead of repeating the
+// same color, font, or size across the stylesheet, you can define
+// it once and reference the variable name everywhere.
+// If you need to change it, you only update it in one place.
+// ============================================================
+
+// Colors
+$color-primary:      
+$color-primary-dark: 
+$color-bg:           
+$color-surface:      
+$color-surface-md:   
+$color-dark:         
+$color-nav-bg:       
+$color-accent-dark:  
+$color-ref-link:        
+$muted-color:        
+
+// Typography
+$font-display:      "Datatype", monospace;
+$font-body:         "Roboto", sans-serif;
+$font-base:         18px;
+$font-small:        0.75rem;
+$font-figcaption:   small;
+
+// Spacing
+$spacing-sm:        0.5rem;
+$spacing-md:        0.75rem;
+$spacing-lg:        1rem;
+$spacing-xl:        1.5rem;
+$spacing-2xl:       2rem;
+$spacing-section:   4rem;
+
+// Layout
+$container-max-width:     
+$container-max-height:     
+$nav-min-width:     
+$border-radius-sm:  0.313rem;
+$border-radius-md:  0.5rem;
+$gallery-img-size:  100px;
+$logo-img-sm:       110px;
+$logo-img-lg:       220px;
