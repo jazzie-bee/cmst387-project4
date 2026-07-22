@@ -1,0 +1,10 @@
+// ============================================================
+// 2. FUNCTIONS
+// Functions accept arguments and return a computed value.
+// Sass has many built-in functions (like lighten, darken),
+// and you can define your own with @function.
+// ============================================================
+
+@function to-rem($px) {
+  @return $px / $font-base * 1rem;
+}
