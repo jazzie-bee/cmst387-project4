@@ -3,53 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decsription" content="Contact Hybrid Arts Studio.">
+    <meta name="keywords" content="web design, ux, user experience, resource, hub, responsive design">
+    <meta name="author" content="Jazmine">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="UX Resource Hub">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 <body>
     
-    <header>
-        <nav class="nav-bar" id="navbar">
-        <div class="nav-top">
-            <div class="nav-logo"><i class="ti ti-layout-grid" aria-hidden="true"></i> UX Resource Hub</div>
-            <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
-            <div class="hbar"></div><div class="hbar"></div><div class="hbar"></div>
-            </div>
-        </div>
-        <ul class="drawer" id="drawer" role="navigation" aria-label="Main navigation">
-            <li class="drawer-item active"><i class="ti ti-home" aria-hidden="true"></i><a href="index.html">Home</a></li>
-            <li class="drawer-item"><i class="ti ti-user-search" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
-            <li class="drawer-item"><i class="ti ti-accessible" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
-            <li class="drawer-item"><i class="ti ti-shield-lock" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
-            <li class="drawer-item"><i class="ti ti-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
-            <li class="drawer-item"><i class="ti ti-devices" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
-            <li class="drawer-item"><i class="ti ti-info-circle" aria-hidden="true"></i><a href="about.html">About</a></li>
-            <li class="drawer-item"><i class="ti ti-mail" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
-        </ul>
-        </nav>
+  <header>
+    <nav class="nav-bar" id="navbar">
+      <div class="nav-top">
+          <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
+          <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
+          <i class="fa-solid fa-bars"></i>
+          </div> -->
+      </div>
+      <ul class="drawer" aria-label="Main navigation">
+          <li class="drawer-item active"><i class="fa-regular fa-house" aria-hidden="true"></i><a href="index.html">Home</a></li>
+          <li class="drawer-item"><i class="fa fa-user" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
+          <li class="drawer-item"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
+          <li class="drawer-item"><i class="fa fa-shield-halved" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
+          <li class="drawer-item"><i class="fa fa-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
+          <li class="drawer-item"><i class="fa fa-table-cells" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
+          <li class="drawer-item"><i class="fa fa-circle-info" aria-hidden="true"></i><a href="about.html">About</a></li>
+          <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
     
-        <!-- search bar goes here -->
-    </header>
+    <!-- search bar goes here -->
+  </header>
 
     <section class="section-pg">
-        <div class="pg-tag tag-sec"><i class="ti ti-shield-lock" style="font-size:11px" aria-hidden="true"></i> Web security</div>
         <header class="pg-title">Web application security</header>
-        <div class="img-placeholder"><i class="ti ti-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — security concepts</div>
+        <div class="img-placeholder"><i class="fa fa-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — security concepts</div>
         <div class="pg-summary">Web application security protects sites and users from attacks like cross-site scripting, SQL injection, and broken authentication. The OWASP Top 10 and the CIA triad — Confidentiality, Integrity, Availability — are the starting points for any security-aware developer.</div>
+
         <hr>
-        <div class="divider"></div>
+
         <div class="res-label">Related resources</div>
         <div class="res-card">
             <div class="res-card-title">OWASP Top 10 — 2021 edition</div>
-            <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> owasp.org</div>
+            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> owasp.org</div>
         </div>
         <div class="res-card">
             <div class="res-card-title">Web security on MDN</div>
-            <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> developer.mozilla.org</div>
+            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> developer.mozilla.org</div>
         </div>
         <div class="res-card">
             <div class="res-card-title">HTTPS and secure headers explained</div>
-            <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> securityheaders.com</div>
+            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> securityheaders.com</div>
         </div>
     </section>
+
+
+
+    <footer>
+        <p>&copy; 2026 UX Resource Hub · CMST 387 | <a href="about.html" class="footer-link">About</a> <a href="about.html" class="footer-link">Accessibility statement</a> <a href="about.html" class="footer-link">Feedback</a></p>
+        <p id="datetime"></p>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="https://kit.fontawesome.com/9db0402647.js" crossorigin="anonymous"></script>
 </body>
 </html>

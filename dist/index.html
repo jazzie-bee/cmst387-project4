@@ -17,20 +17,20 @@
   <header>
     <nav class="nav-bar" id="navbar">
       <div class="nav-top">
-          <div class="nav-logo"><i class="ti ti-layout-grid" aria-hidden="true"></i> UX Resource Hub</div>
-          <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
-          <div class="hbar"></div><div class="hbar"></div><div class="hbar"></div>
-          </div>
+          <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
+          <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
+          <i class="fa-solid fa-bars"></i>
+          </div> -->
       </div>
-      <ul class="drawer" id="drawer" role="navigation" aria-label="Main navigation">
-          <li class="drawer-item active"><i class="ti ti-home" aria-hidden="true"></i><a href="index.html">Home</a></li>
-          <li class="drawer-item"><i class="ti ti-user-search" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
-          <li class="drawer-item"><i class="ti ti-accessible" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
-          <li class="drawer-item"><i class="ti ti-shield-lock" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
-          <li class="drawer-item"><i class="ti ti-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
-          <li class="drawer-item"><i class="ti ti-devices" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
-          <li class="drawer-item"><i class="ti ti-info-circle" aria-hidden="true"></i><a href="about.html">About</a></li>
-          <li class="drawer-item"><i class="ti ti-mail" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
+      <ul class="drawer" aria-label="Main navigation">
+          <li class="drawer-item active"><i class="fa-regular fa-house" aria-hidden="true"></i><a href="index.html">Home</a></li>
+          <li class="drawer-item"><i class="fa fa-user" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
+          <li class="drawer-item"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
+          <li class="drawer-item"><i class="fa fa-shield-halved" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
+          <li class="drawer-item"><i class="fa fa-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
+          <li class="drawer-item"><i class="fa fa-table-cells" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
+          <li class="drawer-item"><i class="fa fa-circle-info" aria-hidden="true"></i><a href="about.html">About</a></li>
+          <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     
@@ -39,141 +39,50 @@
 
   <div class="container">
 
-    <div class="page active" id="page-home">
-        <div class="hero">
-            <div class="sub-title">CMST 387 · resource hub</div>
-            <div class="hero-title">Web design and development resources</div>
-            <div class="hero-sub">Curated articles, tools, and references covering UX research, responsive design, security, and more.</div>
-            <div class="hero-btn">Browse all topics</div>
-        </div>
-        <div class="card-container">
-            <div class="card" data-page="ux">
-                <div class="card-icon icon-ux"><i class="ti ti-user-search" aria-hidden="true"></i></div>
-                <div class="card-title">UX design</div>
-                <div class="card-sub">Research, personas, journeys</div>
-            </div>
-            <div class="card" data-page="a11y">
-                <div class="card-icon icon-a11y"><i class="ti ti-accessible" aria-hidden="true"></i></div>
-                <div class="card-title">Accessibility</div>
-                <div class="card-sub">WCAG, POUR, inclusive design</div>
-            </div>
-            <div class="card" data-page="sec">
-                <div class="card-icon icon-sec"><i class="ti ti-shield-lock" aria-hidden="true"></i></div>
-                <div class="card-title">Web security</div>
-                <div class="card-sub">OWASP, CIA triad, auth</div>
-            </div>
-            <div class="card" data-page="opt">
-                <div class="card-icon icon-opt"><i class="ti ti-rocket" aria-hidden="true"></i></div>
-                <div class="card-title">Optimization</div>
-                <div class="card-sub">Performance, speed, tools</div>
-            </div>
-            <div class="card" data-page="rwd">
-                <div class="card-icon icon-rwd"><i class="ti ti-devices" aria-hidden="true"></i></div>
-                <div class="card-title">Responsive design</div>
-                <div class="card-sub">Flexbox, CSS Grid, mobile-first</div>
-            </div>
-            <div class="card" data-page="contact">
-                <div class="card-icon icon-about"><i class="ti ti-mail" aria-hidden="true"></i></div>
-                <div class="card-title">Contact</div>
-                <div class="card-sub">Send a message</div>
-            </div>
-        </div>
-    </div>
+    <section class="hero">
+        <div class="sub-title">CMST 387 · resource hub</div>
+        <div class="hero-title">Web design and development resources</div>
+        <div class="hero-sub">Curated articles, tools, and references covering UX research, responsive design, security, and more.</div>
+        <div class="hero-btn">Browse all topics</div>
+    </section>
 
-    <div class="page" id="page-opt">
-      <div class="section-pg">
-        <div class="pg-tag tag-opt"><i class="ti ti-rocket" style="font-size:11px" aria-hidden="true"></i> Optimization</div>
-        <header class="pg-title">Website optimization</header>
-        <div class="img-placeholder"><i class="ti ti-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — performance metrics</div>
-        <div class="pg-summary">Website optimization improves loading speed, Core Web Vitals scores, and overall user experience. Techniques range from image compression and lazy loading to caching strategies and code minification.</div>
-        <div class="divider"></div>
-        <div class="res-label">Related resources</div>
-        <div class="res-card">
-          <div class="res-card-title">Google PageSpeed Insights</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> pagespeed.web.dev</div>
+    <section class="card-container">
+        <div class="card" data-page="ux">
+            <div class="card-icon icon-ux"><i class="fa fa-user" aria-hidden="true"></i></div>
+            <div class="card-title">UX design</div>
+            <div class="card-sub">Research, personas, journeys</div>
         </div>
-        <div class="res-card">
-          <div class="res-card-title">Core Web Vitals explained</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> web.dev</div>
-        </div>
-        <div class="res-card">
-          <div class="res-card-title">WebPageTest — advanced performance testing</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> webpagetest.org</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="page" id="page-rwd">
-      <div class="section-pg">
-        <div class="pg-tag tag-rwd"><i class="ti ti-devices" style="font-size:11px" aria-hidden="true"></i> Responsive design</div>
-        <header class="pg-title">Responsive web design</header>
-        <div class="img-placeholder"><i class="ti ti-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — multi-device layout</div>
-        <div class="pg-summary">Responsive web design uses flexible grids, fluid images, and CSS media queries to make layouts adapt across any screen size. CSS Grid and Flexbox are the primary layout tools; a mobile-first approach ensures the base experience is solid before scaling up.</div>
-        <div class="divider"></div>
-        <div class="res-label">Related resources</div>
-        <div class="res-card">
-          <div class="res-card-title">CSS Grid — complete guide</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> css-tricks.com</div>
+        <div class="card" data-page="a11y">
+            <div class="card-icon icon-a11y"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i></div>
+            <div class="card-title">Accessibility</div>
+            <div class="card-sub">WCAG, POUR, inclusive design</div>
         </div>
-        <div class="res-card">
-          <div class="res-card-title">Flexbox Froggy — interactive Flexbox tutorial</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> flexboxfroggy.com</div>
-        </div>
-        <div class="res-card">
-          <div class="res-card-title">Every Layout — intrinsic CSS patterns</div>
-          <div class="res-card-src"><i class="ti ti-external-link" style="font-size:11px" aria-hidden="true"></i> every-layout.dev</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="page" id="page-about">
-      <div class="section-pg">
-        <div class="pg-tag" style="background:var(--surface-1);color:var(--text-secondary)"><i class="ti ti-info-circle" style="font-size:11px" aria-hidden="true"></i> About</div>
-        <header class="pg-title">About this hub</header>
-        <div class="img-placeholder"><i class="ti ti-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — about photo</div>
-        <div class="pg-summary">This resource hub was built as a capstone project for CMST 387 — Principles of Web Design and Technology III. It collects and organizes the most useful resources from the course into one accessible, mobile-first site.</div>
-        <div class="divider"></div>
-        <div class="res-label">Site info</div>
-        <div class="res-card">
-          <div class="res-card-title">Accessibility statement</div>
-          <div class="res-card-src"><i class="ti ti-file-text" style="font-size:11px" aria-hidden="true"></i> This site targets WCAG 2.2 Level AA</div>
+        <div class="card" data-page="sec">
+            <div class="card-icon icon-sec"><i class="fa fa-shield-halved" aria-hidden="true"></i></div>
+            <div class="card-title">Web security</div>
+            <div class="card-sub">OWASP, CIA triad, auth</div>
         </div>
-        <div class="res-card">
-          <div class="res-card-title">Built with HTML, CSS, and vanilla JS</div>
-          <div class="res-card-src"><i class="ti ti-code" style="font-size:11px" aria-hidden="true"></i> No frameworks or build tools</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="page" id="page-contact">
-      <div class="contact-pg">
-        <div class="pg-tag" style="background:var(--surface-1);color:var(--text-secondary)"><i class="ti ti-mail" style="font-size:11px" aria-hidden="true"></i> Contact</div>
-        <header class="pg-title">Get in touch</header>
-        <div class="pg-summary" style="margin-bottom:16px">Have a question, suggestion, or found a broken link? Send a message.</div>
-        <div class="form-group">
-          <label class="form-label" for="m-name">Full name</label>
-          <input class="form-input" id="m-name" type="text" placeholder="Jazmine Durand" />
+        <div class="card" data-page="opt">
+            <div class="card-icon icon-opt"><i class="fa fa-rocket" aria-hidden="true"></i></div>
+            <div class="card-title">Optimization</div>
+            <div class="card-sub">Performance, speed, tools</div>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="m-email">Email address</label>
-          <input class="form-input" id="m-email" type="email" placeholder="name@email.com" />
+
+        <div class="card" data-page="rwd">
+            <div class="card-icon icon-rwd"><i class="fa fa-table-cells" aria-hidden="true"></i></div>
+            <div class="card-title">Responsive design</div>
+            <div class="card-sub">Flexbox, CSS Grid, mobile-first</div>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="m-topic">Topic</label>
-          <select class="form-select" id="m-topic">
-            <option>General question</option>
-            <option>Accessibility feedback</option>
-            <option>Broken link report</option>
-            <option>Resource suggestion</option>
-          </select>
+
+        <div class="card" data-page="contact">
+            <div class="card-icon icon-about"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+            <div class="card-title">Contact</div>
+            <div class="card-sub">Send a message</div>
         </div>
-        <div class="form-group">
-          <label class="form-label" for="m-msg">Message</label>
-          <textarea class="form-textarea" id="m-msg" placeholder="Your message…"></textarea>
-        </div>
-        <button class="form-btn">Send message</button>
-      </div>
-    </div>
+    </section>
 
   </div>
 
