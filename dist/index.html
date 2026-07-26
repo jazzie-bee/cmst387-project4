@@ -12,9 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-  <h1>UX Resource Hub</h1>
-
-  <header>
     <nav class="nav-bar" id="navbar">
       <div class="nav-top">
           <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
@@ -35,60 +32,82 @@
     </nav>
     
     <!-- search bar goes here -->
-  </header>
 
   <div class="container">
 
-    <section class="hero">
-        <div class="sub-title">CMST 387 · resource hub</div>
-        <div class="hero-title">Web design and development resources</div>
-        <div class="hero-sub">Curated articles, tools, and references covering UX research, responsive design, security, and more.</div>
-        <div class="hero-btn">Browse all topics</div>
-    </section>
+    <header class="hero">
+        <div class="subtitle">CMST 387 · resource hub</div>
+        <h1 class="hero-title">Web design and development resources</h1>
+        <p class="hero-sub">Curated articles, tools, and references covering UX research, responsive design, security, and more.</p>
+        <button class="hero-btn">Browse all topics</button>
+        <button class="btn-subtle">About this hub <i class="fa-solid fa-arrow-right"></i></button>
+    </header>
 
-    <section class="card-container">
-        <div class="card" data-page="ux">
-            <div class="card-icon icon-ux"><i class="fa fa-user" aria-hidden="true"></i></div>
-            <div class="card-title">UX design</div>
-            <div class="card-sub">Research, personas, journeys</div>
-        </div>
+    <main>
+        <section class="topic-cards">
+            <h2>Browse by topic</h2>
+            <div class="card-topic" data-page="ux">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <h3 class="card-title">UX design</h3>
+                <p class="card-sub">Research, personas, journey maps, and usability testing</p>
+            </div>
+            <div class="card-topic" data-page="a11y">
+                <i class="fa-brands fa-accessible-icon" aria-hidden="true"></i>
+                <h3 class="card-title">Accessibility</h3>
+                <p class="card-sub">WCAG, POUR, inclusive design</p>
+            </div>
+            <div class="card-topic" data-page="sec">
+                <i class="fa fa-shield-halved" aria-hidden="true"></i>
+                <h3 class="card-title">Web security</h3>
+                <p class="card-sub">OWASP Top 10, CIA triad, auth, secure development</p>
+            </div>
+            <div class="card-topic" data-page="opt">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <h3 class="card-title">Optimization</h3>
+                <p class="card-sub">Automated checkers, performance, speed, tools</p>
+            </div>
+            <div class="card-topic" data-page="rwd">
+                <i class="fa fa-table-cells" aria-hidden="true"></i>
+                <h3 class="card-title">Responsive design</h3>
+                <p class="card-sub">Flexbox, CSS Grid, mobile-first design</p>
+            </div>
+        </section>
 
-        <div class="card" data-page="a11y">
-            <div class="card-icon icon-a11y"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i></div>
-            <div class="card-title">Accessibility</div>
-            <div class="card-sub">WCAG, POUR, inclusive design</div>
-        </div>
+        <hr>
 
-        <div class="card" data-page="sec">
-            <div class="card-icon icon-sec"><i class="fa fa-shield-halved" aria-hidden="true"></i></div>
-            <div class="card-title">Web security</div>
-            <div class="card-sub">OWASP, CIA triad, auth</div>
-        </div>
+        <section class="featured-cards">
+            <div class="header-row">
+                <h2>Featured resources</h2>
+                <button class="btn-subtle">View all <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
 
-        <div class="card" data-page="opt">
-            <div class="card-icon icon-opt"><i class="fa fa-rocket" aria-hidden="true"></i></div>
-            <div class="card-title">Optimization</div>
-            <div class="card-sub">Performance, speed, tools</div>
-        </div>
+        <div class="featured-cards">
+            <div class="card-feature">
+                <span class="tag">UX design</span>
+                <h3>Nielsen's 10 usability heuristics</h3>
+                <p>A foundation checklist for evaluating any interface's ease of use.</p>
+            </div>
 
-        <div class="card" data-page="rwd">
-            <div class="card-icon icon-rwd"><i class="fa fa-table-cells" aria-hidden="true"></i></div>
-            <div class="card-title">Responsive design</div>
-            <div class="card-sub">Flexbox, CSS Grid, mobile-first</div>
-        </div>
+            <div class="card-feature">
+                <span class="tag">Responsive design</span>
+                <h3>CSS Grid vs. Flexbox</h3>
+                <p>A practical comparison for laying out pages and components.</p>
+            </div>
 
-        <div class="card" data-page="contact">
-            <div class="card-icon icon-about"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-            <div class="card-title">Contact</div>
-            <div class="card-sub">Send a message</div>
+            <div class="card-feature">
+                <span class="tag">Accessibility</span>
+                <h3>WCAG 2.2 at a glance</h3>
+                <p>Quick reference for the four POUR principles and key success criteria.</p>
+            </div>
         </div>
-    </section>
+        </section>
+
+    </main>
 
   </div>
 
   <footer>
       <p>&copy; 2026 UX Resource Hub · CMST 387 | <a href="about.html" class="footer-link">About</a> <a href="about.html" class="footer-link">Accessibility statement</a> <a href="about.html" class="footer-link">Feedback</a></p>
-      <p id="datetime"></p>
   </footer>
 
   <script src="main.js"></script>
