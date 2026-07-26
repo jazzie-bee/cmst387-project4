@@ -13,8 +13,7 @@
 </head>
 <body>
     
-  <header>
-    <nav class="nav-bar" id="navbar">
+    <nav class="flexbox-nav-bar" id="navbar">
       <div class="nav-top">
           <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
           <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
@@ -32,30 +31,105 @@
           <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    
-    <!-- search bar goes here -->
-  </header>
 
-    <div class="section-pg">
-        <header class="pg-title">Responsive web design</header>
-        <div class="img-placeholder"><i class="fa fa-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — multi-device layout</div>
-        <div class="pg-summary">Responsive web design uses flexible grids, fluid images, and CSS media queries to make layouts adapt across any screen size. CSS Grid and Flexbox are the primary layout tools; a mobile-first approach ensures the base experience is solid before scaling up.</div>
-        
+    <nav class="flexbox-nav-bar" id="navbar">
+      <div class="nav-top">
+          <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
+          <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
+          <i class="fa-solid fa-bars"></i>
+          </div> -->
+      </div>
+      <ul class="drawer" aria-label="Main navigation">
+          <li class="drawer-item active"><i class="fa-regular fa-house" aria-hidden="true"></i><a href="index.html">Home</a></li>
+          <li class="drawer-item"><i class="fa fa-user" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
+          <li class="drawer-item"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
+          <li class="drawer-item"><i class="fa fa-shield-halved" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
+          <li class="drawer-item"><i class="fa fa-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
+          <li class="drawer-item"><i class="fa fa-table-cells" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
+          <li class="drawer-item"><i class="fa fa-circle-info" aria-hidden="true"></i><a href="about.html">About</a></li>
+          <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
+      </ul>
+      
+      <!-- search bar goes here -->
+    </nav>
+
+    <div class="pg-container">
+
+        <header class="hero">
+            <h1>User experience design</h1>
+            <img src="" alt="Hero image UX research process" class="hero-img">
+            <p class="pg-summary">UX design is the practice of understanding users and designing experiences that meet their needs. It combines qualitative and quantitative research methods to uncover insights that shape every design decision.</p>
+        </header>
+
+        <aside>
+            <nav class="sub-topics">
+                <ul>
+                    <li><a href="#"></a>All resources</li>
+                    <li><a href="#"></a>Sub Topic 1</li>
+                    <li><a href="#"></a>Sub Topic 2</li>
+                </ul>
+            </nav>
+            <div class="filter-sidebar">
+                <h3 class="filter-header">Filters</h3>
+                <button class="filter-btn" onclick="filterCategory('all')">All</button>
+                <button class="filter-btn" onclick="filterCategory('articles')">Articles</button>
+                <button class="filter-btn" onclick="filterCategory('tools')">Tools</button>
+                <button class="filter-btn" onclick="filterCategory('externalSites')">External sites</button>
+                <button class="filter-btn" onclick="filterCategory('templates')">Templates</button>
+            </div>
+        </aside>
+
         <hr>
 
-        <div class="res-label">Related resources</div>
-        <div class="res-card">
-            <div class="res-card-title">CSS Grid — complete guide</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> css-tricks.com</div>
-        </div>
-        <div class="res-card">
-            <div class="res-card-title">Flexbox Froggy — interactive Flexbox tutorial</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> flexboxfroggy.com</div>
-        </div>
-        <div class="res-card">
-            <div class="res-card-title">Every Layout — intrinsic CSS patterns</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> every-layout.dev</div>
-        </div>
+        <main>
+            <section class="topic-cards">
+                <h2>Sub Topic 1</h2>
+                <div class="card-topic" data-page="ux">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Filter tag</span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="a11y">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="sec">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+
+                <hr>
+
+                <h2>Sub Topic 2</h2>
+                <div class="card-topic" data-page="opt">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="rwd">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 UX Resource Hub · CMST 387 | <a href="about.html" class="footer-link">About</a> <a href="about.html" class="footer-link">Accessibility statement</a> <a href="about.html" class="footer-link">Feedback</a></p>
+            <p id="datetime"></p>
+        </footer>
     </div>
 
   <footer>

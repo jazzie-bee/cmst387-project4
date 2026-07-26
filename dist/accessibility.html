@@ -13,8 +13,7 @@
 </head>
 <body>
 
-  <header>
-    <nav class="nav-bar" id="navbar">
+    <nav class="flexbox-nav-bar" id="navbar">
       <div class="nav-top">
           <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
           <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
@@ -32,38 +31,85 @@
           <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    
-    <!-- search bar goes here -->
-  </header>
 
-    <section class="section-pg">
-        <header class="pg-title">Accessibility and inclusive design</header>
-        <div class="img-placeholder"><i class="fa fa-photo" aria-hidden="true" style="font-size:16px"></i> Hero image — accessible UI patterns</div>
-        <div class="pg-summary">Web accessibility ensures that websites and tools work for everyone, including people with disabilities. WCAG 2.2 and the POUR framework — Perceivable, Operable, Understandable, Robust — provide the foundation for inclusive design.</div>
+    <div class="pg-container">
+
+        <header class="hero">
+            <h1>User experience design</h1>
+            <img src="" alt="Hero image UX research process" class="hero-img">
+            <p class="pg-summary">UX design is the practice of understanding users and designing experiences that meet their needs. It combines qualitative and quantitative research methods to uncover insights that shape every design decision.</p>
+        </header>
+
+        <aside>
+            <nav class="sub-topics">
+                <ul>
+                    <li><a href="#"></a>All resources</li>
+                    <li><a href="#"></a>Sub Topic 1</li>
+                    <li><a href="#"></a>Sub Topic 2</li>
+                </ul>
+            </nav>
+            <div class="filter-sidebar">
+                <h3 class="filter-header">Filters</h3>
+                <button class="filter-btn" onclick="filterCategory('all')">All</button>
+                <button class="filter-btn" onclick="filterCategory('articles')">Articles</button>
+                <button class="filter-btn" onclick="filterCategory('tools')">Tools</button>
+                <button class="filter-btn" onclick="filterCategory('externalSites')">External sites</button>
+                <button class="filter-btn" onclick="filterCategory('templates')">Templates</button>
+            </div>
+        </aside>
 
         <hr>
 
-        <div class="res-label">Related resources</div>
-        <div class="res-card">
-            <div class="res-card-title">WCAG 2.2 quick reference</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> w3.org</div>
-        </div>
-        <div class="res-card">
-            <div class="res-card-title">Inclusive design principles</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> inclusivedesignprinciples.org</div>
-        </div>
-        <div class="res-card">
-            <div class="res-card-title">axe DevTools browser extension</div>
-            <div class="res-card-src"><i class="fa fa-external-link" style="font-size:11px" aria-hidden="true"></i> deque.com</div>
-        </div>
-    </section>
+        <main>
+            <section class="topic-cards">
+                <h2>Sub Topic 1</h2>
+                <div class="card-topic" data-page="ux">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Filter tag</span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="a11y">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="sec">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
 
+                <hr>
 
-    
-    <footer>
-        <p>&copy; 2026 UX Resource Hub · CMST 387 | <a href="about.html" class="footer-link">About</a> <a href="about.html" class="footer-link">Accessibility statement</a> <a href="about.html" class="footer-link">Feedback</a></p>
-        <p id="datetime"></p>
-    </footer>
+                <h2>Sub Topic 2</h2>
+                <div class="card-topic" data-page="opt">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+                <div class="card-topic" data-page="rwd">
+                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
+                    <h3 class="card-title">Title</h3>
+                    <p class="card-sub">Resource summary.</p>
+                    <hr>
+                    <span class="tag sub-topic-tag">Sub</span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 UX Resource Hub · CMST 387 | <a href="about.html" class="footer-link">About</a> <a href="about.html" class="footer-link">Accessibility statement</a> <a href="about.html" class="footer-link">Feedback</a></p>
+            <p id="datetime"></p>
+        </footer>
+    </div>
 
     <script src="main.js"></script>
 
