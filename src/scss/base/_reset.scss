@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -12,10 +13,11 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: $font-body;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: $color-primary;
+  background-color: $bg-color;
 }
 
 a {

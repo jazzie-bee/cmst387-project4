@@ -6,11 +6,11 @@
 // ============================================================
 
 // Colors
-$color-primary:      #f6f6f6;
-$color-primary-dark: #dfdfdf;
-$color-surface:      #fff;
+$color-primary:      #333;
+$color-primary-dark: #202020;
+$bg-color:           #f4f4f4;
 $color-nav-bg:       #fff;
-$color-accent:       #fff;
+$color-accent:       #7a00cc;
 $color-ref-link:     #fff;
 $text-color:         #121212;
 $muted-color:        #fff;
@@ -23,6 +23,7 @@ $font-small:        0.75rem;
 $font-figcaption:   small;
 
 // Spacing
+$spacing:           1.0rem;
 $spacing-sm:        0.5rem;
 $spacing-md:        0.75rem;
 $spacing-lg:        1rem;
