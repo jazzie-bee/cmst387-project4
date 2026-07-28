@@ -1,23 +1,23 @@
 // Abstracts (Variables, Mixins, Functions)
-@import 'abstracts/_functions';
-@import 'abstracts/_mixins';
-@import 'abstracts/_variables';
+@use 'abstracts/_functions';
+@use 'abstracts/_mixins';
+@use 'abstracts/_variables';
 
 // Base (Resets and typography)
-@import 'base/_nest';
-@import 'base/_reset';
-@import 'base/_typography';
+@use 'base/_nest';
+@use 'base/_reset';
+@use 'base/_typography';
 
 // Components (UI elements)
-@import 'components/_buttons';
-@import 'components/_cards';
+@use 'components/_buttons';
+@use 'components/_cards';
 
 // Layout (Global structure)
-@import 'layout/_footer';
-@import 'layout/_forms';
-@import 'layout/_grid';
-@import 'layout/_header';
-@import 'layout/_navigation';
+@use 'layout/_footer';
+@use 'layout/_forms';
+@use 'layout/_grid';
+@use 'layout/_header';
+@use 'layout/_navigation';
 
 // Pages (page specific styles)
-@import 'pages/_home'
+@use 'pages/_home'

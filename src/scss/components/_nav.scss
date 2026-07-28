@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    gap: $spacing;
+    background: $color-primary;
+    padding: $spacing;
+    border-bottom: 1px solid #dddddd;
+
+    a {
+      color: $accent-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+}
