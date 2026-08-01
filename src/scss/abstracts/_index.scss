@@ -1,3 +1,24 @@
-@forward '../scss/abstracts/functions';
-@forward '../scss/abstracts/variables';
-@forward '../scss/abstracts/mixins';
+// Abstracts (Variables, Mixins, Functions)
+@forward './mixins';
+@forward 'abstracts/functions';
+@forward 'abstracts/variables';
+
+// Base (Resets and typography)
+@forward 'base/nest';
+@forward 'base/reset';
+@forward 'base/typography';
+
+// Components (UI elements)
+@forward 'components/buttons';
+@forward 'components/cards';
+@forward 'components/nav';
+
+// Layout (Global structure)
+@forward 'layout/footer';
+@forward 'layout/forms';
+@forward 'layout/grid';
+@forward 'layout/header';
+@forward 'layout/navigation';
+
+// Pages (page specific styles)
+@forward 'pages/home';
