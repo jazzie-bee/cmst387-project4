@@ -1,5 +1,3 @@
-@use '../abstracts/index' as *;
-
 // Flex layout shortcut
 @mixin flex($direction: row, $justify: flex-start, $align: stretch) {
   display: flex;
