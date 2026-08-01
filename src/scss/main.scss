@@ -1,24 +1,24 @@
 // Abstracts (Variables, Mixins, Functions)
-@use '../scss/abstracts/mixins';
-@use '../scss/abstracts/function';
-@use '../scss/abstracts/variables';
+@use 'abstracts/mixins';
+@use 'abstracts/functions';
+@use 'abstracts/variables';
 
 // Base (Resets and typography)
-@use '../scss/base/nest';
-@use '../scss/base/reset';
-@use '../scss/base/typography';
+@use 'base/nest';
+@use 'base/reset';
+@use 'base/typography';
 
 // Components (UI elements)
-@use '../scss/components/buttons';
-@use '../scss/components/cards';
-@use '../scss/components/nav';
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/nav';
 
 // Layout (Global structure)
-@use '../scss/layout/footer';
-@use '../scss/layout/forms';
-@use '../scss/layout/grid';
-@use '../scss/layout/header';
-@use '../scss/layout/navigation';
+@use 'layout/footer';
+@use 'layout/forms';
+@use 'layout/grid';
+@use 'layout/header';
+@use 'layout/navigation';
 
 // Pages (page specific styles)
-@use '../scss/pages/home';
+@use 'pages/home';
