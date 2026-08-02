@@ -1,4 +1,28 @@
 @import "https://fonts.googleapis.com/css2?family=Datatype:wdth,wght@50..150,100..900&family=Iosevka+Charon+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
+nav {
+  z-index: 100;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  min-width: 43.75rem;
+  padding: 0 .75rem;
+  display: flex;
+  position: relative;
+  top: 0;
+  box-shadow: .06rem .01rem .2rem #3a3a3a;
+}
+
+nav ul {
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  display: flex;
+}
+
 header {
   max-width: 800px;
   margin: 40px auto;
@@ -48,6 +72,31 @@ input, textarea, select, button {
   line-height: inherit;
   border: none;
   outline: none;
+}
+
+.card-topic {
+  color: inherit;
+  background: #fff;
+  border: 1px solid #33333326;
+  border-radius: .5rem;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  transition: box-shadow .18s, transform .18s;
+  display: flex;
+  box-shadow: 0 1px 3px #3333331f;
+}
+
+.card-topic:hover, .card-topic:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px #3333332e;
+}
+
+.card-topic:focus-visible {
+  outline-offset: 2px;
+  outline: 2px solid #7a00cc;
 }
 
 nav {

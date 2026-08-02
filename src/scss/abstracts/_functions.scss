@@ -1,10 +1,19 @@
+@use 'variables' as *;
+@use 'sass:math';
+
 // ============================================================
-// 2. FUNCTIONS
+// FUNCTIONS
 // Functions accept arguments and return a computed value.
-// Sass has many built-in functions (like lighten, darken),
-// and you can define your own with @function.
 // ============================================================
 
 @function to-rem($px) {
-  @return $px / $font-base * 1rem;
+  @return math.div($px, $font-base) * 1rem;
 }
+
+// OPERATORS
+$nav-padding-v:     $spacing-md;                  // 0.75rem
+$nav-gap:           $spacing-lg * 2;              // 2rem
+$content-padding:   $spacing-xl;                  // 1.5rem
+$dropdown-padding:  $spacing-md + 0.125rem;       // 0.875rem
+$footer-margin:     $spacing-lg;                  // 1rem
+$ol-indent:         to-rem(60px);                 // ~3.33rem

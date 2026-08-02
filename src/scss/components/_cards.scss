@@ -1,2 +1,5 @@
 @use '../abstracts/index' as *;
 
+.card-topic {
+    @include card-base();
+}
