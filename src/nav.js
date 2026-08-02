@@ -27,3 +27,14 @@ if (hamburger && navLinks && closeOverlay) {
     if (e.matches) closeMenu();
   });
 }
+
+// Mark the current page's link active
+const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+
+document.querySelectorAll('.drawer-item').forEach((item) => {
+  const link = item.querySelector('a');
+  if (!link) return;
+
+  const linkPage = link.getAttribute('href').split('/').pop();
+  item.classList.toggle('active', linkPage === currentPage);
+});

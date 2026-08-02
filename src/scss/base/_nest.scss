@@ -1,24 +1,5 @@
 @use '../abstracts/index' as *;
 
-nav {
-  @include flex(row, flex-start, center);
-  min-width: $nav-min-width;
-  position: relative;
-  top: 0;
-  background-color: $surface-color;
-  box-shadow: 0.06rem 0.01rem 0.2rem $color-dark;
-  width: 100vw;
-  padding: 0 $spacing-md;
-  z-index: 100;
- 
-  // Nested: ul inside nav
-  ul {
-    @include flex(row, left, center);
-    margin: 0;
-    gap: $nav-gap;
-  }
-}
-
 .hero {
   max-width: 100%;
   margin: 40px auto;
