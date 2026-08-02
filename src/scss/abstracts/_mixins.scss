@@ -14,7 +14,7 @@
   flex: 0 0 $width;
   justify-content: center;
   text-align: center;
-  border-right: 1px solid $color-dark;
+  border-right: 1px solid $muted-color;
   padding: $spacing-xl;
   background-color: $bg-color;
   align-self: stretch;
@@ -43,41 +43,25 @@ $breakpoints: (
   }
 }
 
+
 // -------------------------------------------------------------
 // BASE CARD
 // -------------------------------------------------------------
 // Shared shape/layout/interaction for every card on the site.
+/// Colors from variables.
 
 // Local variables for cards
-$card-shadow: 0 1px 3px rgba($color-primary, 0.12);
-$card-shadow-hover: 0 6px 16px rgba($color-primary, 0.18);
-$card-border-color: rgba($color-primary, 0.15);
+$card-shadow: 0 1px 3px rgba($muted-color, 0.12);
+$card-shadow-hover: 0 6px 16px rgba($muted-color, 0.18);
 $card-transition: 180ms ease;
-
-// Homepage grid breakpoints — 1 col mobile, up to nav-min-width
-// stays stacked, then opens into the two-row layout.
-$breakpoint-sm: 480px;
-$breakpoint-lg: $nav-min-width; // 43.75rem / 700px
-
-// Media query breakpoints — wraps the @media rules so I
-// don't have to repeat the pixel values everywhere
-@mixin breakpoint($breakpoints) {
-  @if $breakpoints == laptop {
-    @media only screen and (max-width: 1440px) { @content; }
-  } @else if $breakpoints == tablet {
-    @media only screen and (max-width: 600px)  { @content; }
-  } @else if $breakpoints == mobile {
-    @media only screen and (max-width: 450px)  { @content; }
-  }
-}
  
 @mixin card-base {
   display: flex;
   flex-direction: column;
   gap: $spacing-sm;
   padding: $spacing-lg;
-  background: $color-nav-bg;
-  border: 1px solid $card-border-color;
+  background: $bg-color;
+  border: 1px solid $muted-color;
   border-radius: $border-radius-md;
   box-shadow: $card-shadow;
   transition: box-shadow $card-transition, transform $card-transition;
@@ -92,14 +76,14 @@ $breakpoint-lg: $nav-min-width; // 43.75rem / 700px
   }
  
   &:focus-visible {
-    outline: 2px solid $color-accent;
+    outline: 2px solid $link-color;
     outline-offset: 2px;
   }
 
   hr {
     width: 100%;
     border: none;
-    border-top: 1px solid $card-border-color;
+    border-top: 1px solid $muted-color;
     margin: 0;
   }
 }
@@ -117,35 +101,14 @@ $breakpoint-lg: $nav-min-width; // 43.75rem / 700px
   #{$caption} {
     font-size: $font-small;
     line-height: 1.5;
-    color: $color-primary;
+    color: $muted-color;
     margin: 0;
   }
 }
 
-@mixin card-icon {
-  > i {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.75rem;
-    height: 2.75rem;
-    border-radius: 50%;
-    background: rgba($color-accent, 0.12);
-    color: $color-accent;
-    font-size: 1.25rem;
-  }
-}
-
-// Card topic colors
-
-$topic-hues: (
-  ux-design: 0,
-  accessibility: 40,
-  web-security: -80,
-  optimization: 80,
-  responsive-design: -40
-);
- 
+// --------------------------------------------
+// TOPIC CARDS
+// -------------------------------------------
 $datapage-to-topic: (
   ux: ux-design,
   a11y: accessibility,
@@ -153,9 +116,9 @@ $datapage-to-topic: (
   opt: optimization,
   rwd: responsive-design
 );
- 
-// Icon badge for the <i> inside .card-topic, colored per data-page.
-@mixin card-icon {
+
+// .card surface, borders, titles, and icon colros
+@mixin card-colors {
   > i {
     display: inline-flex;
     align-items: center;
@@ -163,19 +126,30 @@ $datapage-to-topic: (
     width: 2.75rem;
     height: 2.75rem;
     border-radius: 50%;
-    background: rgba($color-accent, 0.12);
-    color: $color-accent;
+    background: $bg-color;
     font-size: 1.25rem;
   }
+
+    @each $code, $slug in $datapage-to-topic {
+    $colors: map-get($topic-colors, $slug);
+    $accent: map-get($colors, accent);
+    $surface: map-get($colors, surface);
  
-  @each $code, $slug in $datapage-to-topic {
-    $hue: map-get($topic-hues, $slug);
-    &[data-page="#{$code}"] > i {
-      background: rgba(adjust-hue($color-accent, $hue), 0.12);
-      color: adjust-hue($color-accent, $hue);
+    &[data-page="#{$code}"] {
+      background: $surface;
+      border-color: $accent;
+ 
+      .card-title {
+        color: $accent;
+      }
+ 
+      > i {
+        color: $accent;
+      }
     }
   }
 }
+
  
 // Base pill for any .tag (hero tag, filter-tag, sub-topic-tag,
 // featured-card topic tags all start from this).
@@ -191,15 +165,17 @@ $datapage-to-topic: (
   letter-spacing: 0.02em;
   padding: math.div($spacing-sm, 2) $spacing-sm;
   border-radius: $border-radius-sm;
-  background: rgba($color-accent, 0.12);
-  color: $color-accent;
+  background: rgba($link-color, 0.12);
+  color: $link-color;
 }
-
+ 
+// Generates .web-security-tag, .accessibility-tag, .ux-design-tag,
+// .optimization-tag, .responsive-design-tag — colored from $topic-colors.
 @mixin tag-topic-variants {
-  @each $slug, $hue in $topic-hues {
+  @each $slug, $colors in $topic-colors {
     .#{$slug}-tag {
-      background: rgba(adjust-hue($color-accent, $hue), 0.12);
-      color: adjust-hue($color-accent, $hue);
+      background: map-get($colors, surface);
+      color: map-get($colors, accent);
     }
   }
 }
@@ -207,12 +183,12 @@ $datapage-to-topic: (
 // ============================================================
 // CARD — GRID / LAYOUT
 // ============================================================
- 
 @mixin topic-cards-layout($columns: 3, $min-card-width: 200px) {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: $spacing-xl;
+  align-items: stretch;
  
   > h2,
   > hr {
@@ -224,27 +200,27 @@ $datapage-to-topic: (
     margin-bottom: $spacing-sm;
   }
  
-  > .card-topic {
+  > .card {
     flex: 1 1 100%;
     max-width: 100%;
   }
  
   @include respond(sm) {
-    > .card-topic {
+    > .card {
       flex: 1 1 calc(50% - #{$spacing-xl});
       max-width: calc(50% - #{$spacing-xl});
     }
   }
  
   @include respond(lg) {
-    > .card-topic {
-      flex: 1 1 calc(#{100% / $columns} - #{$spacing-xl});
-      max-width: calc(#{100% / $columns} - #{$spacing-xl});
+    > .card {
+      flex: 1 1 calc(#{math.div(100%, $columns)} - #{$spacing-xl});
+      max-width: calc(#{math.div(100%, $columns)} - #{$spacing-xl});
       min-width: $min-card-width;
     }
   }
 }
-
+ 
 @mixin featured-grid($min-col-width: 260px) {
   display: grid;
   grid-template-columns: 1fr;
@@ -258,61 +234,3 @@ $datapage-to-topic: (
     grid-template-columns: repeat(auto-fit, minmax($min-col-width, 1fr));
   }
 }
-
-@use '../abstracts/index' as *;
-
-// ============================================================
-// TOPIC CARDS
-// ============================================================
-
-.topic-cards {
-  @include topic-cards-layout;
-}
-
-.card-topic {
-  @include card-base;
-  @include card-typography('.card-title', '.card-sub');
-  @include card-icon;
-  align-items: flex-start;
-  cursor: pointer;
-
-  // subject-page cards only: label above the title
-  .filter-tag {
-    @include tag-base;
-    background: rgba($color-primary, 0.08);
-    color: $color-primary;
-
-    i {
-      font-size: 0.7rem;
-    }
-  }
-}
-
-// ============================================================
-// FEATURED CARDS (homepage only)
-// ============================================================
-
-.featured-cards {
-  @include featured-grid;
-}
-
-.card-feature {
-  @include card-base;
-  @include card-typography('h3', 'p');
-}
-
-// ============================================================
-// TAGS
-// ============================================================
-
-.tag {
-  @include tag-base;
-}
-
-.sub-topic-tag {
-  @include tag-base;
-  background: rgba($color-primary, 0.08);
-  color: $color-primary;
-}
-
-@include tag-topic-variants;

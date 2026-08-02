@@ -5,16 +5,43 @@
 // it once and reference the variable name everywhere.
 // ============================================================
 
-// Colors
-$color-primary:      #333;
-$color-primary-dark: #202020;
-$color-dark:         #3a3a3a;
-$bg-color:           #f4f4f4;
-$color-nav-bg:       #fff;
-$color-accent:       #7a00cc;
-$color-ref-link:     #fff;
+// Colors 
+$bg-color:           #fff;        // main page background
+$surface-color:      #f6f6f6;     // nav, footer, aside — anything secondary to the main bg
+ 
 $text-color:         #121212;
-$muted-color:        #fff;
+$text-color-lite:    #f6f6f6;     // text on dark/accent backgrounds
+$muted-color:        #c4c4c4;     // secondary/caption text, subtle borders
+$link-color:         #5760dd;     // visited links
+$color-dark:         #3a3a3a;
+
+// -------------------------------------------------------------
+// Topic colors
+// Accent = icons, card titles, borders. Surface = card background
+// (a lighter tint of accent).
+// -------------------------------------------------------------
+$racing-red:         #e11e1e;
+$pumpkin-spice:      #e67c31;
+$golden-glow:        #e2c629;
+$royal-azure:        #1c5ae1;
+$radioactive-grass:  #32da14;
+ 
+$lavender-blush:     #fce9e9;
+$seashell:           #fcf2eb;
+$ivory:              #fcf9e9;
+$alice-blue:         #e8effc;
+$honeydew:           #eafde6;
+ 
+// One lookup, keyed by topic slug (matches the -tag suffix classes
+// in the HTML, e.g. .web-security-tag). Mixins read accent/surface
+// out of here instead of computing color variants at build time.
+$topic-colors: (
+  web-security:      (accent: $racing-red,        surface: $lavender-blush),
+  accessibility:     (accent: $golden-glow,       surface: $ivory),
+  ux-design:         (accent: $royal-azure,       surface: $alice-blue),
+  optimization:      (accent: $radioactive-grass, surface: $honeydew),
+  responsive-design: (accent: $pumpkin-spice,     surface: $seashell)
+);
 
 // Typography
 $font-display:      "Datatype", monospace;

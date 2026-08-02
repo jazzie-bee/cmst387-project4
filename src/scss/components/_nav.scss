@@ -3,12 +3,12 @@
 nav {
     display: flex;
     gap: $spacing;
-    background: $color-primary;
+    background: $surface-color;
     padding: $spacing;
     border-bottom: 1px solid #dddddd;
 
     a {
-      color: $color-accent;
+      color: $text-color;
       text-decoration: none;
 
       &:hover {

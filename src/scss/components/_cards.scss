@@ -1,5 +1,60 @@
 @use '../abstracts/index' as *;
 
-.card-topic {
-    @include card-base();
+// ============================================================
+// TOPIC CARDS
+// ============================================================
+
+.topic-cards {
+  @include topic-cards-layout;
 }
+
+.card {
+  @include card-base;
+  @include card-typography('.card-title', '.card-sub');
+  @include card-colors;
+  align-items: flex-start;
+  cursor: pointer;
+
+  // subject-page cards only: label above the title
+  .filter-tag {
+    @include tag-base;
+    background: rgba($text-color, 0.08);
+    color: $text-color;
+
+    i {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+// ============================================================
+// FEATURED CARDS (homepage only)
+// ============================================================
+
+.featured-cards {
+  @include featured-grid;
+}
+
+.card-feature {
+  @include card-base;
+  @include card-typography('h3', 'p');
+}
+
+// ============================================================
+// TAGS
+// .tag is the shared pill (hero tag, featured-card topic tags).
+// .sub-topic-tag is the generic small tag on subject-page cards.
+// -tag suffix classes are the per-topic color variants.
+// ============================================================
+
+.tag {
+  @include tag-base;
+}
+
+.sub-topic-tag {
+  @include tag-base;
+  background: rgba($text-color, 0.08);
+  color: $text-color;
+}
+
+@include tag-topic-variants;
