@@ -1,6 +1,7 @@
 @use 'functions' as *;
 @use 'variables' as *;
 @use 'sass:math';
+@use 'sass:map';
 
 // Flex layout shortcut
 @mixin flex($direction: row, $justify: flex-start, $align: stretch) {

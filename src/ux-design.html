@@ -12,35 +12,40 @@
     <title>Document</title>
 </head>
 <body>
-
-    <nav class="flexbox-nav-bar" id="navbar">
-      <div class="nav-top">
-          <div class="nav-logo"><i class="fa fa-cubes" aria-hidden="true"></i> UX Resource Hub</div>
-          <!-- <div class="hamburger" id="hamburger" aria-label="Open navigation" role="button" tabindex="0">
-          <i class="fa-solid fa-bars"></i>
-          </div> -->
-      </div>
-      <ul class="drawer" aria-label="Main navigation">
-          <li class="drawer-item active"><i class="fa-regular fa-house" aria-hidden="true"></i><a href="index.html">Home</a></li>
-          <li class="drawer-item"><i class="fa fa-user" aria-hidden="true"></i><a href="ux-design.html">UX design</a></li>
-          <li class="drawer-item"><i class="fa-brands fa-accessible-icon" aria-hidden="true"></i><a href="accessibility.html">Accessibility</a></li>
-          <li class="drawer-item"><i class="fa fa-shield-halved" aria-hidden="true"></i><a href="web-application-security.html">Web security</a></li>
-          <li class="drawer-item"><i class="fa fa-rocket" aria-hidden="true"></i><a href="optimization.html">Optimization</a></li>
-          <li class="drawer-item"><i class="fa fa-table-cells" aria-hidden="true"></i><a href="responsive-design.html">Responsive design</a></li>
-          <li class="drawer-item"><i class="fa fa-circle-info" aria-hidden="true"></i><a href="about.html">About</a></li>
-          <li class="drawer-item"><i class="fa fa-envelope" aria-hidden="true"></i><a href="contact.html">Contact</a></li>
-      </ul>
-      
-      <!-- search bar goes here -->
-    </nav>
+    <header>
+        <nav class="navbar">
+                <div class="navbar__logo">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <h2>UX Resource Hub</h2>
+                </div>
+                <div class="navbar__links" id="navlinks">
+                    <button type="button" class="navbar__links--close" id="closeOverlay">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                    <ul class="drawer" id="drawer" aria-label="Main navigation">
+                        <li class="drawer-item active"><a href="index.html">Home</a></li>
+                        <li class="drawer-item"><a href="ux-design.html">UX design</a></li>
+                        <li class="drawer-item"><a href="accessibility.html">Accessibility</a></li>
+                        <li class="drawer-item"><a href="web-application-security.html">Web security</a></li>
+                        <li class="drawer-item"><a href="optimization.html">Optimization</a></li>
+                        <li class="drawer-item"><a href="responsive-design.html">Responsive design</a></li>
+                        <li class="drawer-item"><a href="about.html">About</a></li>
+                        <li class="drawer-item"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="navbar__hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="drawer">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+        </nav>
+    </header>
 
     <div class="container">
 
-        <header class="hero">
+        <div class="hero">
             <h1>User experience design</h1>
             <img src="./images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg" alt="Hero image UX research process" class="hero-img">
             <p class="pg-summary">UX design is the practice of understanding users and designing experiences that meet their needs. It combines qualitative and quantitative research methods to uncover insights that shape every design decision.</p>
-        </header>
+        </div>
 
         <aside>
             <nav class="sub-topics">

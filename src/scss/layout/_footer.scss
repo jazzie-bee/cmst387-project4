@@ -1,2 +1,6 @@
 @use '../abstracts/index' as *;
 
+footer {
+    display: flex;
+    justify-content: center;
+}
