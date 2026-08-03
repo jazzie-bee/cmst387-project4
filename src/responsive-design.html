@@ -42,72 +42,58 @@
     <div class="container">
 
         <div class="hero">
-            <h1>User experience design</h1>
-            <img src="./images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg" alt="Hero image UX research process" class="hero-img">
-            <p class="pg-summary">UX design is the practice of understanding users and designing experiences that meet their needs. It combines qualitative and quantitative research methods to uncover insights that shape every design decision.</p>
+            <div class="hero__content">
+                <h1>User experience design</h1>
+                <p class="pg-summary">UX design is the practice of understanding users and designing experiences that meet their needs. It combines qualitative and quantitative research methods to uncover insights that shape every design decision.</p>
+            </div>
         </div>
 
-        <aside>
-            <nav class="sub-topics">
-                <ul>
-                    <li><a href="#"></a>All resources</li>
-                    <li><a href="#"></a>Sub Topic 1</li>
-                    <li><a href="#"></a>Sub Topic 2</li>
-                </ul>
-            </nav>
-            <div class="filter-sidebar">
-                <h3 class="filter-header">Filters</h3>
-                <button class="filter-btn" onclick="filterCategory('all')">All</button>
-                <button class="filter-btn" onclick="filterCategory('articles')">Articles</button>
-                <button class="filter-btn" onclick="filterCategory('tools')">Tools</button>
-                <button class="filter-btn" onclick="filterCategory('externalSites')">External sites</button>
-                <button class="filter-btn" onclick="filterCategory('templates')">Templates</button>
-            </div>
-        </aside>
-
-        <hr>
-
         <main>
+
             <section class="topic-cards">
                 <h2>Sub Topic 1</h2>
-                <div class="card" data-page="ux">
-                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>Filter tag</span>
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-sub">Resource summary.</p>
-                    <hr>
-                    <span class="tag sub-topic-tag">Sub</span>
-                </div>
-                <div class="card" data-page="a11y">
-                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-sub">Resource summary.</p>
-                    <hr>
-                    <span class="tag sub-topic-tag">Sub</span>
-                </div>
-                <div class="card" data-page="sec">
-                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-sub">Resource summary.</p>
-                    <hr>
-                    <span class="tag sub-topic-tag">Sub</span>
+                <div class="section__cards">
+                    <div class="card" data-page="ux">
+                        <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>ARTICLE</span>
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-sub">Resource summary.</p>
+                        <hr>
+                        <span class="tag sub-topic-tag">Sub</span>
+                    </div>
+                    <div class="card" data-page="a11y">
+                        <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>ARTICLE</span>
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-sub">Resource summary.</p>
+                        <hr>
+                        <span class="tag sub-topic-tag">Sub</span>
+                    </div>
+                    <div class="card" data-page="sec">
+                        <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>EXTERNAL</span>
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-sub">Resource summary.</p>
+                        <hr>
+                        <span class="tag sub-topic-tag">Sub</span>
+                    </div>
                 </div>
 
                 <hr>
 
                 <h2>Sub Topic 2</h2>
-                <div class="card" data-page="opt">
-                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-sub">Resource summary.</p>
-                    <hr>
-                    <span class="tag sub-topic-tag">Sub</span>
-                </div>
-                <div class="card" data-page="rwd">
-                    <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true">Filter tag</i></span>
-                    <h3 class="card-title">Title</h3>
-                    <p class="card-sub">Resource summary.</p>
-                    <hr>
-                    <span class="tag sub-topic-tag">Sub</span>
+                <div class="section__cards">
+                    <div class="card" data-page="opt">
+                        <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>EXTERNAL</span>
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-sub">Resource summary.</p>
+                        <hr>
+                        <span class="tag sub-topic-tag">Sub</span>
+                    </div>
+                    <div class="card" data-page="rwd">
+                        <span class="filter-tag"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>FILTER</span>
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-sub">Resource summary.</p>
+                        <hr>
+                        <span class="tag sub-topic-tag">Sub</span>
+                    </div>
                 </div>
             </section>
         </main>
@@ -117,9 +103,9 @@
             <p id="datetime"></p>
         </footer>
     </div>
+ 
+    <script src="nav.js"></script>
 
-  <script src="#"></script>
-
-  <script src="https://kit.fontawesome.com/9db0402647.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9db0402647.js" crossorigin="anonymous"></script>
 </body>
 </html>
