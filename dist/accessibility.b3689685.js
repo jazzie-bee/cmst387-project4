@@ -30,4 +30,4 @@ document.querySelectorAll('.drawer-item').forEach((item)=>{
     item.classList.toggle('active', linkPage === currentPage);
 });
 
-//# sourceMappingURL=project4.b3689685.js.map
+//# sourceMappingURL=accessibility.b3689685.js.map
