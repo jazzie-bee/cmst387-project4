@@ -13,14 +13,18 @@
   align-items: $align;
 }
 
-@mixin aside-panel($width: 220px) {
-  flex: 0 0 $width;
-  justify-content: center;
-  text-align: center;
-  border-right: 1px solid $muted-color;
+// aside
+@mixin aside-panel {
+  display: flex;
+  flex-direction: column;
   padding: $spacing-xl;
-  background-color: $bg-color;
-  align-self: stretch;
+  background-color: $surface-color;
+  border-bottom: 1px solid $muted-color;
+ 
+  @include respond(lg) {
+    border-bottom: none;
+    border-right: 1px solid $muted-color;
+  }
 }
 
 @mixin transition($prop: background-color, $duration: 0.3s) {
