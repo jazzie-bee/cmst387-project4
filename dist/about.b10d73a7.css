@@ -61,39 +61,27 @@ input, textarea, select, button {
 }
 
 .topic-cards {
-  flex-wrap: wrap;
-  justify-content: left;
-  align-items: stretch;
-  gap: 1.5rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
   display: flex;
 }
 
-.topic-cards > h2, .topic-cards > hr {
-  flex: 100%;
-  margin: 0;
-}
-
-.topic-cards > h2 {
-  margin-bottom: .5rem;
-}
-
-.topic-cards > .card {
-  flex: 100%;
-  max-width: 100%;
+.section__cards {
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  display: grid;
 }
 
 @media (width >= 480px) {
-  .topic-cards > .card {
-    flex: calc(50% - 1.5rem);
-    max-width: calc(50% - 1.5rem);
+  .section__cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (width >= 43.75rem) {
-  .topic-cards > .card {
-    flex: calc(33.3333% - 1.5rem);
-    min-width: 200px;
-    max-width: calc(33.3333% - 1.5rem);
+  .section__cards {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
 }
 
@@ -210,7 +198,7 @@ input, textarea, select, button {
   text-transform: uppercase;
   letter-spacing: .02em;
   color: #121212;
-  background: #12121214;
+  background: #1212120f;
   border-radius: .313rem;
   align-self: flex-start;
   align-items: center;
@@ -224,6 +212,13 @@ input, textarea, select, button {
 
 .card .filter-tag i {
   font-size: .7rem;
+}
+
+.featured {
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  display: flex;
 }
 
 .featured-cards {
@@ -240,7 +235,7 @@ input, textarea, select, button {
 
 @media (width >= 43.75rem) {
   .featured-cards {
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
@@ -312,7 +307,7 @@ input, textarea, select, button {
   text-transform: uppercase;
   letter-spacing: .02em;
   color: #121212;
-  background: #12121214;
+  background: #1212120f;
   border-radius: .313rem;
   align-self: flex-start;
   align-items: center;

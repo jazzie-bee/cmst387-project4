@@ -1,12 +1,16 @@
 @use '../abstracts/index' as *;
-@use 'sass:map';
 
 // ============================================================
 // TOPIC CARDS
+// .topic-cards (section) > h2 + .section__cards (grid wrapper) > .card
 // ============================================================
 
 .topic-cards {
-  @include topic-cards-layout;
+  @include section-stack;
+}
+
+.section__cards {
+  @include card-grid(220px);
 }
 
 .card {
@@ -16,10 +20,9 @@
   align-items: flex-start;
   cursor: pointer;
 
-  // subject-page cards only: label above the title
   .filter-tag {
     @include tag-base;
-    background: rgba($text-color, 0.08);
+    background: rgba($text-color, 0.06);
     color: $text-color;
 
     i {
@@ -29,11 +32,16 @@
 }
 
 // ============================================================
-// FEATURED CARDS (homepage only)
+// FEATURED CARDS
+// .featured (section) > .header-row + .featured-cards (grid wrapper) > .card-feature
 // ============================================================
 
+.featured {
+  @include section-stack;
+}
+
 .featured-cards {
-  @include featured-grid;
+  @include card-grid(280px);
 }
 
 .card-feature {
@@ -43,9 +51,6 @@
 
 // ============================================================
 // TAGS
-// .tag is the shared pill (hero tag, featured-card topic tags).
-// .sub-topic-tag is the generic small tag on subject-page cards.
-// -tag suffix classes are the per-topic color variants.
 // ============================================================
 
 .tag {
@@ -54,7 +59,7 @@
 
 .sub-topic-tag {
   @include tag-base;
-  background: rgba($text-color, 0.08);
+  background: rgba($text-color, 0.06);
   color: $text-color;
 }
 
