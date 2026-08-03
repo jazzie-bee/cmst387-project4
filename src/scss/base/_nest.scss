@@ -1,16 +1,23 @@
 @use '../abstracts/index' as *;
 
 .hero {
+  background: linear-gradient(rgba(0,0,0,0.4));
+  background-image: url("../images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 100%;
-  margin: 40px auto;
-  padding: 0 $spacing-section;
+  margin-bottom: $spacing-lg;
+  padding: $spacing-section;
 
   h1 {
     font-size: 2rem;
+    color: $text-color-lite;
     margin-bottom: $spacing;
   }
 
   p {
+    color: $text-color-lite;
     line-height: 1.6;
+    margin-bottom: $spacing;
   }
 }

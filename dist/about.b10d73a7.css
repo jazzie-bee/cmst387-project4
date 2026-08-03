@@ -1,16 +1,20 @@
 @import "https://fonts.googleapis.com/css2?family=Datatype:wdth,wght@50..150,100..900&family=Iosevka+Charon+Mono&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
 .hero {
+  background: url("sandro-katalina-k1bO_VTiZSs-unsplash.904d579c.jpg") 0 0 / cover no-repeat;
   max-width: 100%;
-  margin: 40px auto;
-  padding: 0 4rem;
+  margin-bottom: 1rem;
+  padding: 4rem;
 }
 
 .hero h1 {
+  color: #f6f6f6;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
 .hero p {
+  color: #f6f6f6;
+  margin-bottom: 1rem;
   line-height: 1.6;
 }
 
@@ -58,6 +62,10 @@ input, textarea, select, button {
   line-height: inherit;
   border: none;
   outline: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .topic-cards {
