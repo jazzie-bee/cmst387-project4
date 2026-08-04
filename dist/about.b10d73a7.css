@@ -354,6 +354,95 @@ img {
   background: #fcf2eb;
 }
 
+.container form {
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  border-radius: .5rem;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 32rem;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.container form label {
+  color: #121212;
+  margin-top: .5rem;
+  font-family: Roboto, sans-serif;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.container form label:first-of-type {
+  margin-top: 0;
+}
+
+.container form .required {
+  color: #e11e1e;
+  margin-left: .2em;
+}
+
+.container form input, .container form textarea {
+  box-sizing: border-box;
+  color: #121212;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: .313rem;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  transition: border-color .18s, box-shadow .18s;
+}
+
+.container form input::placeholder, .container form textarea::placeholder {
+  color: #c4c4c4;
+}
+
+.container form input:focus, .container form textarea:focus {
+  border-color: #5760dd;
+  outline: none;
+  box-shadow: 0 0 0 3px #5760dd26;
+}
+
+.container form textarea {
+  resize: vertical;
+  min-height: 8rem;
+  font-family: inherit;
+}
+
+.container form .cta-btn {
+  color: #f6f6f6;
+  cursor: pointer;
+  background: #5760dd;
+  border: none;
+  border-radius: .313rem;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  margin-top: .5rem;
+  padding: .5rem 1.5rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background .18s, transform .18s;
+  display: inline-flex;
+}
+
+.container form .cta-btn:hover, .container form .cta-btn:focus-visible {
+  background: #3540d6;
+}
+
+.container form .cta-btn:focus-visible {
+  outline-offset: 2px;
+  outline: 2px solid #5760dd;
+}
+
+.container form .cta-btn:active {
+  transform: translateY(1px);
+}
+
 .navbar {
   background: #f6f6f6;
   border-bottom: 1px solid #c4c4c4;
@@ -480,5 +569,21 @@ img {
 footer {
   justify-content: center;
   display: flex;
+}
+
+.main-about {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.about-container {
+  background: #f6f6f6;
+  border: 1px solid #c4c4c4;
+  border-radius: .5rem;
+  width: 50%;
+  padding: 2rem;
 }
 /*# sourceMappingURL=about.b10d73a7.css.map */
