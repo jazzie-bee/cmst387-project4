@@ -27,8 +27,11 @@
 }
 
 html, body {
-  max-width: 100%;
   overflow-x: hidden;
+}
+
+html {
+  height: 100%;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -39,9 +42,13 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 body {
   color: #121212;
   background-color: #fff;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
 }
 
 main {
@@ -67,6 +74,12 @@ input, textarea, select, button {
 
 img {
   max-width: 100%;
+}
+
+.container {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
 }
 
 .topic-cards {
@@ -567,6 +580,7 @@ img {
 
 footer {
   justify-content: center;
+  margin-top: auto;
   display: flex;
 }
 
@@ -576,6 +590,7 @@ footer {
   border-radius: .5rem;
   flex-direction: column;
   max-width: 48rem;
+  max-height: 24rem;
   margin: 2rem auto;
   padding: 1.5rem;
   display: flex;
