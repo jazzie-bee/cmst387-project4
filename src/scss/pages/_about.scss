@@ -3,15 +3,10 @@
 .main-about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.about-container {
-    padding: $spacing-2xl;
+    max-width: 48rem;
+    margin: $spacing-2xl auto;
+    padding: $spacing-xl;
     background: $surface-color;
     border: 1px solid $muted-color;
     border-radius: $border-radius-md;
-    width: 50%;
 }
