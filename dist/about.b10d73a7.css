@@ -177,11 +177,11 @@ img {
 
 .card[data-page="a11y"] {
   background: #fcf9e9;
-  border-color: #e2c629;
+  border-color: #d6ba18;
 }
 
 .card[data-page="a11y"] .card-title, .card[data-page="a11y"] > i {
-  color: #e2c629;
+  color: #d6ba18;
 }
 
 .card[data-page="sec"] {
@@ -347,7 +347,7 @@ img {
 }
 
 .accessibility-tag {
-  color: #e2c629;
+  color: #d6ba18;
   background: #fcf9e9;
 }
 
@@ -590,7 +590,6 @@ footer {
   border-radius: .5rem;
   flex-direction: column;
   max-width: 48rem;
-  max-height: 24rem;
   margin: 2rem auto;
   padding: 1.5rem;
   display: flex;
