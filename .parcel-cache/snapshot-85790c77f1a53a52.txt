@@ -1,4 +1,4 @@
-3671
+3673
 160C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\node-releases\data\release-schedule\release-schedule.json134300175121474588 0
 136C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\utils\src\prettifyTime.js134300175129974603 0
 97C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.github134292303243993255 1
@@ -23,10 +23,10 @@
 111C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\msgpackr134300175127144593 1
 100C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.gitignore134303687776981831 0
 118C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\chalk\readme.md134300175127494605 0
-112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.html134303683030394945 0
+112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.html134303711533933566 0
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\.bin\node-gyp-build-optional-packages134300175140584594 0
 131C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\semver\functions\truncate.js134300175126814601 0
-94C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist134303683032367777 1
+94C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist134303711534563566 1
 104C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\about.html134303641317255346 0
 153C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\font-variant-numeric.js134300175134974587 0
 149C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\error-overlay\src\components\Footer.js134300175123134603 0
@@ -131,7 +131,7 @@
 145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\type-fest\source\require-at-least-one.d.ts134300175122034595 0
 133C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_identity.mjs134300175134634582 0
 120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@lezer\lr\LICENSE134300175123324604 0
-108C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\scss\main.scss134303640720616630 0
+108C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\scss\main.scss134303710244099869 0
 130C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\workers\src\process134300175126834597 1
 108C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\ux-design.html134303601275743486 0
 131C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\_\_to_primitive134300175133664597 1
@@ -215,7 +215,7 @@
 130C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\sass\types\value\mixin.d.ts134297588560720924 0
 142C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\audio-api.js134300175124944591 0
 116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\escalade\dist134300175121084583 1
-114C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\scss\base\_nest.scss134303670198735161 0
+114C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\scss\base\_nest.scss134303710996193737 0
 119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\src\scss\components\_nav.scss134301868580673716 0
 133C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\lib\buildCache.js134300175129404592 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\HU.js134300175135554598 0
@@ -413,7 +413,7 @@
 116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\source-map-js134297588559268171 1
 108C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\tslib134300175122144592 1
 145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-any-link.js134300175130154601 0
-105C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\index.html134303683030394945 0
+105C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\index.html134303711533933566 0
 137C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\dist\lib\supported.js134300175138854622 0
 143C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\type-fest\source\conditional-except.d.ts134300175121214599 0
 131C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\ordered-binary\tests\test.js134300175122114603 0
@@ -617,7 +617,7 @@
 147C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\utils\src\replaceBundleReferences.js134300175130174595 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\source-map-js\lib\base64-vlq.js134297588558748182 0
 147C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\xml-serializer.js134300175140344602 0
-113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b10d73a7.css134303683031171477 0
+113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b10d73a7.css134303710996728440 0
 136C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_create_super.js134300175130174595 0
 135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\immutable\dist\immutable.js.flow134297588558758175 0
 130C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\immutable\dist\immutable.js134297588559228178 0
@@ -775,7 +775,7 @@
 119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\term-size\vendor134300175122964602 1
 130C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\node-addon-api\package.json134297588559248180 0
 155C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\_\_class_private_field_set\package.json134300175132614607 0
-116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.002aae12.js134303683031140455 0
+116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.002aae12.js134303710246216586 0
 136C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\graph\test\BitSet.test.js134300175125724587 0
 129C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\node-releases\package.json134300175121404589 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\JP.js134300175136124585 0
@@ -883,7 +883,7 @@
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\postcss-value-parser\lib\stringify.js134300175122894589 0
 116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\semver\ranges134300175126884591 1
 141C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-zoom.js134300175133514584 0
-124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.4cc3ae03.js134303683031140455 0
+124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.4cc3ae03.js134303710246986564 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\GR.js134300175135304590 0
 137C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\versionGroups.js134300175139644599 0
 124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\graph\LICENSE134300175124854608 0
@@ -1183,7 +1183,7 @@
 120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\parcel\lib\bin.js134300175127924598 0
 138C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\runtime-js\src\helpers\node134300175128504593 1
 151C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag134300175126214590 0
-114C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.d25830f9.js134303683031140455 0
+114C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.d25830f9.js134303710246226577 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\source-map\node_modules\detect-libc\bin134300175128504593 1
 128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\ordered-binary\index.d.ts134300175122994604 0
 126C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\workers\src\web134300175127584610 1
@@ -1251,7 +1251,7 @@
 132C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\msgpackr-extract\package.json134300175121074586 0
 143C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\utils\src\dependency-location.js134300175127784609 0
 177C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js134300175128624592 0
-112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.95bccf2d.js134303683032177754 0
+112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.95bccf2d.js134303710246986564 0
 137C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\watcher\src\unix\legacy.cc134297588559278172 0
 170C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages134300175140584594 0
 149C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-font-palette.js134300175131614602 0
@@ -1321,7 +1321,7 @@
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\resolver-default\src\DefaultResolver.js134300175125794591 0
 125C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\color-convert\route.js134300175121264597 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\sharedarraybuffer.js134300175138584585 0
-115C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\project4.59712999.js134303683032117755 0
+115C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\project4.59712999.js134303710246286577 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\input-placeholder.js134300175135914589 0
 117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\native.js134300175131824592 0
 120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\node_modules134300175119144607 1
@@ -1494,7 +1494,7 @@
 160C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs134300175134494585 0
 163C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\_\_class_static_private_method_get\package.json134300175132804599 0
 152C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\crypto.c134300175127284607 0
-119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.540ffdb5.js134303683032167759 0
+119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.540ffdb5.js134303710246976566 0
 153C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\intro.doc134300175130604602 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h134300175130984585 0
 149C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_class_private_field_init.mjs134300175134364618 0
@@ -1550,7 +1550,7 @@
 135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\transformer-html\LICENSE134300175125404611 0
 128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lightningcss\package.json134300175123974600 0
 138C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lightningcss-win32-x64-msvc\LICENSE134300175120954593 0
-131C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.d0fff4e2.js134303683032167759 0
+131C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.d0fff4e2.js134303710246986564 0
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\transformer-html\package.json134300175125584600 0
 143C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\lightningcss-win32-x64-msvc\package.json134300175120994595 0
 157C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js134300175136874606 0
@@ -1826,7 +1826,7 @@
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\CN.js134300175129574587 0
 125C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\config-default134300175128384596 1
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\CU.js134300175133644600 0
-116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.95bccf2d.js.map134303683032197777 0
+116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.95bccf2d.js.map134303710247219974 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\transformer-sass\lib\SassTransformer.js134300180152645731 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\DO.js134300175134134588 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\regions\DZ.js134300175134354593 0
@@ -2089,7 +2089,7 @@
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-all.js134300175130074613 0
 154C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js134300175129834616 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\createimagebitmap.js134300175129954592 0
-135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.d0fff4e2.js.map134303683032197777 0
+135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.d0fff4e2.js.map134303710247219974 0
 154C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\credential-management.js134300175129984590 0
 135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\resolver-default\LICENSE134300175125674617 0
 123C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\packager-svg134300175126064592 1
@@ -2157,7 +2157,7 @@
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-logical-props.js134300175132184587 0
 154C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\extended-system-fonts.js134300175134644586 0
 155C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\element-scroll-methods.js134300175134474587 0
-116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.github\workflows\main.yml134292303244013276 0
+116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.github\workflows\main.yml134303702546713968 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-marker-pseudo.js134300175132204593 0
 141C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\runtime-js\src\helpers\browser134300175128424589 1
 142C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\caniuse-lite\data\features\css-masks.js134300175132234604 0
@@ -2666,7 +2666,7 @@
 168C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_class_check_private_static_field_descriptor.mjs134300175134304593 0
 155C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_class_extract_field_descriptor.mjs134300175134314602 0
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_define_property.mjs134300175134584601 0
-119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\project4.59712999.js.map134303683032137760 0
+119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\project4.59712999.js.map134303710246626570 0
 157C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two134300175134374605 1
 152C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\package-manager\src\NodePackageManager.js134300175128634601 0
 145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\src\_class_name_tdz_error.mjs134300175134324607 0
@@ -2751,6 +2751,7 @@
 157C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_class_check_private_static_access.js134300175129724597 0
 132C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@lezer\common\dist\index.d.ts134300175123834602 0
 167C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_class_check_private_static_field_descriptor.js134300175129744593 0
+117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.7948b2c7.css.map134303711534563566 0
 154C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_class_extract_field_descriptor.js134300175129764595 0
 144C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_class_name_tdz_error.js134300175129794595 0
 155C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\esm\_class_private_field_destructure.js134300175129804588 0
@@ -2856,7 +2857,7 @@
 133C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_identity.cjs134300175126744605 0
 133C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_inherits.cjs134300175126834597 0
 152C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs134300175126884591 0
-120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.002aae12.js.map134303683031607750 0
+120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.002aae12.js.map134303710246266571 0
 145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js134300175122774599 0
 123C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\core\index.d.ts134300175123394599 0
 135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_instanceof.cjs134300175126964600 0
@@ -2874,7 +2875,7 @@
 140C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_new_arrow_check.cjs134300175127354592 0
 138C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_object_spread.cjs134300175127584610 0
 144C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_object_spread_props.cjs134300175127534595 0
-128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.4cc3ae03.js.map134303683031617773 0
+128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.4cc3ae03.js.map134303710247229964 0
 156C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs134300175127634604 0
 136C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\fs\test\OverlayFS.test.js134300175128124604 0
 152C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@swc\helpers\cjs\_possible_constructor_return.cjs134300175127734596 0
@@ -3385,7 +3386,7 @@
 129C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-html\lib134300175126904590 1
 138C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-html\package.json134300175126964600 0
 146C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-html\src\HTMLOptimizer.js134300175126934588 0
-112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b3689685.js134303683032107754 0
+112C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b3689685.js134303710246286577 0
 128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-css\lib134300175126564616 1
 132C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-css\LICENSE134300175126534584 0
 128C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\optimizer-css\src134300175126604597 1
@@ -3531,7 +3532,7 @@
 135C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\.bin\download-msgpackr-prebuilds134300175140584594 0
 150C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\glob-like\[entry].js134300175128864590 0
 156C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\default-serve\package.json134300175133964639 0
-123C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.540ffdb5.js.map134303683032197777 0
+123C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\optimization.540ffdb5.js.map134303710247209955 0
 165C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json134300175133924587 0
 157C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\custom-targets\package.json134300175133944603 0
 164C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc134300175128054629 0
@@ -3650,23 +3651,24 @@
 114C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\.bin\semver134300175140624599 0
 118C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\.bin\semver.ps1134300175140624599 0
 134C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\node_modules\.bin\update-browserslist-db.cmd134300175140594593 0
+113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.7948b2c7.css134303711533943595 0
 113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.91e99592.css134303667594347106 0
-117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b10d73a7.css.map134303683031617773 0
-116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b3689685.js.map134303683032127756 0
+117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b10d73a7.css.map134303710996738451 0
+116C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.b3689685.js.map134303710246616568 0
 113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.cfdc446e.css134303670873205179 0
 113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.d7467bd1.css134303672252029936 0
 117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.d7467bd1.css.map134303672252932404 0
-105C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.html134303683030404956 0
+105C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\about.html134303711534553554 0
 124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.b3689685.js.map134302761369307156 0
-120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.dba443e4.js134303683031150475 0
-124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.dba443e4.js.map134303683031617773 0
-113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.html134303683030404956 0
-118C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.d25830f9.js.map134303683031607750 0
-107C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.html134303683030394945 0
+120C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.dba443e4.js134303710247006580 0
+124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.dba443e4.js.map134303710247229964 0
+113C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\accessibility.html134303711533933566 0
+118C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.d25830f9.js.map134303710246286577 0
+107C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\contact.html134303711533933566 0
 119C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\project4.b3689685.js.map134302746259157577 0
-117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.html134303683030414949 0
+117C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\responsive-design.html134303711533933566 0
 144C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\sandro-katalina-k1bO_VTiZSs-unsplash.904d579c.jpg134303640723785642 0
-145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\sandro-katalina-k1bO_VTiZSs-unsplash.b220cbb0.webp134303683031287778 0
-109C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.html134303683030394945 0
-124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.html134303683030394945 0
-107C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.github\workflows134292303244013276 1
+145C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\sandro-katalina-k1bO_VTiZSs-unsplash.b220cbb0.webp134303710246776568 0
+109C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\ux-design.html134303711533933566 0
+124C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\dist\web-application-security.html134303711533943595 0
+107C:\Users\Jaz\Proton Drive\jazminebrown97\My files\Documents\School\UMGC\CMST 387\project4\.github\workflows134303702546703974 1
