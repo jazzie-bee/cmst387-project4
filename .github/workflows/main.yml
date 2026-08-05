@@ -27,6 +27,17 @@ jobs:
     steps:
 
     - uses: actions/checkout@main
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build with Parcel
+      run: npm run build
 
     - name: Deploy to Azure Web App
 
@@ -34,12 +45,10 @@ jobs:
 
       with:
 
-      #Change the app-name to match what was provided to you in the publish settings file, this is in a naming convention of 'COURSENAME-STUDENTUID'
-
         app-name: 'CMST387-UMGC-jwashington110'
 
         slot-name: 'production'
 
-      #Change the publish profile to match what you named your secret setup in GitHub, Example shown below
-
         publish-profile: ${{ secrets.AppServiceCMST387 }}
+
+        package: './dist'
