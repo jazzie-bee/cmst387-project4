@@ -9,4 +9,13 @@
     background: $surface-color;
     border: 1px solid $muted-color;
     border-radius: $border-radius-md;
+
+    p {
+    margin-bottom: $spacing;
+    }
+}
+
+.hanging-indent {
+    padding-left: 30px;
+    text-indent: -30px;
 }
